@@ -157,5 +157,8 @@
 # echo "Hello Peter" | awk '{$2="Mary"; print $0}'
 
 # Example3:
-# 
+# Uniq array
+# _ は変数名、勝手に作られてる？
+# awk のデフォルトでは、自動的に print $0 を返すらしい？
+# awk '!_[$0]++' ./FILE
 # }}}
